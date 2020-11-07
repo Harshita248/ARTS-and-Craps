@@ -1,6 +1,6 @@
 runtime: python
 env: flex
-entrypoint: python application.py
+entrypoint: source venv/bin/activate && pip3 install -r requirements.txt && python application.py
 
 runtime_config:
   python_version: 3

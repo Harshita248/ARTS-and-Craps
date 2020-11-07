@@ -4,9 +4,9 @@ import mysql.connector
 class db:
     def  __init__(self):
         self.mydb = mysql.connector.connect(
-            host="localhost",
-            user="ACadmin",
-            password="acadmin",
+            host="35.222.183.17",
+            user="root",
+            password="password",
             auth_plugin='mysql_native_password',
             database="ArtsAndCraps"
             )

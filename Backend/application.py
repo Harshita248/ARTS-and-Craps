@@ -59,29 +59,8 @@ app.register_blueprint(swaggerui_blueprint)
 
 
 if __name__ == "__main__":
-    data = []
-    with open('Arts.tsv', newline='') as csvfile:
-      spamreader = csv.reader(csvfile, delimiter='\t')
-      print("Use `ArtsAndCraps`;")
-      for row in spamreader:
-          for r in range(0,len(row)):
-              row[r] = row[r].replace('  ',' ')
-              row[r] = row[r].replace('\'','\\\'')
-              row[r] = row[r].replace('\"','\\\"')
-          print("INSERT INTO Arts (Name, Img) VALUES (\"%s\",\"%s\");" % (row[0],0))
-          materials = row[1].split("\n")
-          for m in materials:
-              if m != "" and m!=" ":
-                print("INSERT INTO Material(Name,Material) VALUES (\"%s\",\"%s\");" % (row[0],m))
-          steps = row[2].split("\n")
-          stepcounter = 1
-          for s in range(0,len(steps)):
-            step = steps[s]
-            if step != "" and step != " "
-                print("INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES (\"%s\",\"%s\",\"%s\");" % (row[0],step,s))
-                stepcounter = stepcounter + 1
 
 
 
 
-    #app.run()
+    app.run()
