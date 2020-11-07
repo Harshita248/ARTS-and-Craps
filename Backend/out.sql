@@ -1,6 +1,5 @@
-DROP DATABASE IF EXISTS `ArtsAndCraps`;
+/*DROP DATABASE IF EXISTS `ArtsAndCraps`;
 CREATE DATABASE IF NOT EXISTS `ArtsAndCraps`;
-GRANT ALL PRIVILEGES ON `ArtsAndCraps`.* TO 'ACadmin'@'localhost';
 Use `ArtsAndCraps`;
 
 CREATE TABLE IF NOT EXISTS Arts (
@@ -48,7 +47,7 @@ INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Sharpie Tie Dye","
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Sharpie Tie Dye","  Step Two Use your red, yellow, and blue Sharpies to draw all over the shirt. Add a good layer of color. For the best color mixing demonstration you can use bull’s-eye designs with alternating red, yellow, and blue circles.","1");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Sharpie Tie Dye","  Step Three When the design is complete, slip a plate inside the shirt under the embroidery hoop to catch any rubbing alcohol that may seep through.","2");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Sharpie Tie Dye","  Step Four Pour rubbing alcohol into a small bowl. Using an eye dropper begin dropping rubbing alcohol on the t-shirt. If you have bull’s-eye designs drop the alcohol in the center of each bull’s-eye. Within seconds you will see more colors appear! Green, orange and purple should be visible as the ink bleeds and mixes with the other colors.","3");
-INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Sharpie Tie Dye","  Step Five Get that t-shirt really saturated! Alternatively use the rubbing alcohol in a controlled manner to bleed and blend only certain parts of the shirt. Now let dry.","4");
+INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Sharpie Tie Dye","  Step Five Get that t-shirt really saturated! Alternatively use the rubbing alcohol in a controlled manner to bleed and blend only certain pArts of the shirt. Now let dry.","4");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Sharpie Tie Dye","  Step Six Once it’s dry remove the embroidery hoop and iron your shirt.","5");
 INSERT INTO Arts (Name, Img) VALUES ("Color Theory Candy","0");
 INSERT INTO Material(Name,Material) VALUES ("Color Theory Candy","Red, Blue, and Yellow Candy Melts");
@@ -169,16 +168,16 @@ INSERT INTO Material(Name,Material) VALUES ("Resin Crystal Place Card Holder"," 
 INSERT INTO Material(Name,Material) VALUES ("Resin Crystal Place Card Holder","  Paper place card");
 INSERT INTO Material(Name,Material) VALUES ("Resin Crystal Place Card Holder","  Drill with 1/8\" drill bit");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Resin Crystal Place Card Holder","","0");
-INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Resin Crystal Place Card Holder","  Wearing gloves from the Supply Kit, mix a small amount of equal parts resin and hardener according to package instructions.","1");
+INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Resin Crystal Place Card Holder","  Wearing gloves from the Supply Kit, mix a small amount of equal pArts resin and hardener according to package instructions.","1");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Resin Crystal Place Card Holder","  Add clear crushed glass to the prepared resin and stir. Pour into the large crystal mold. Apply heat with the Heat Gun to disperse any bubbles. Allow to cure until hard.","2");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Resin Crystal Place Card Holder","","3");
-INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Resin Crystal Place Card Holder","  Mix another small batch of equal parts resin and hardener according to package instructions.","4");
+INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Resin Crystal Place Card Holder","  Mix another small batch of equal pArts resin and hardener according to package instructions.","4");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Resin Crystal Place Card Holder","  Add a few drops of gold opaque dye and stir slowly to achieve the desired color. Pour into mold over the cured layer. Apply heat with the Heat Gun to disperse any bubbles. Allow to cure until hard.","5");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Resin Crystal Place Card Holder","","6");
-INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Resin Crystal Place Card Holder","  Mix a 3rd small batch of equal parts resin and hardener according to package instructions.","7");
+INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Resin Crystal Place Card Holder","  Mix a 3rd small batch of equal pArts resin and hardener according to package instructions.","7");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Resin Crystal Place Card Holder","  Add a few drops of red opaque dye and red glitter. Stir slowly to achieve the desired color. Pour into mold over cured layers. Apply heat with the Heat Gun to disperse any bubbles. Allow to cure until hard.","8");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Resin Crystal Place Card Holder","","9");
-INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Resin Crystal Place Card Holder","  Mix a 4th and final batch of equal parts resin and hardener according to package instructions.","10");
+INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Resin Crystal Place Card Holder","  Mix a 4th and final batch of equal pArts resin and hardener according to package instructions.","10");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Resin Crystal Place Card Holder","  Add gold glitter and stir slowly. Pour into mold to create the final layer - fill mold to the top. Apply heat with the Heat Gun to disperse any bubbles. Allow to cure until hard.","11");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Resin Crystal Place Card Holder","  Remove crystal from mold.","12");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Resin Crystal Place Card Holder","  Use a drill with an 1/8\" bit to drill a small hole into the top of the finished crystal. Insert the gold wire card holder into the drilled hole, securing with a drop of glue if needed.","13");
@@ -243,7 +242,7 @@ INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Defying Gravity Sc
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Defying Gravity Science Experiment","  Select the \'Advanced Settings\' button, under Model Base ensure that \'Brim\' is selected from the drop down. Then select \'OK\'.","4");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Defying Gravity Science Experiment","  Click on the green \'Print\' button, and SmartPrep will then estimate the time that the model will take to print and give you an estimation of the amount of filament that will be needed, giving you the opportunity to confirm that you have enough on your cartridge before you begin.","5");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Defying Gravity Science Experiment","  Save the sliced model to your SD Card or USB.","6");
-INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Defying Gravity Science Experiment","  Repeat these steps for all parts of the Defying Gravity Science Experiment Model.","7");
+INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Defying Gravity Science Experiment","  Repeat these steps for all pArts of the Defying Gravity Science Experiment Model.","7");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Defying Gravity Science Experiment","  Load the filament into the printer. Place your filament cartridge on the Polaroid Precise Filament Holder & Scale, break off the end of the filament, as instructed in the User Guide for your Polaroid PlaySmart 3D printer, and insert it into the filament feeder until you can see 2cm of filament in the PTFE tube.","8");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Defying Gravity Science Experiment","  Select the \'Filament\' tab on the LCD screen, and then press \'Load\'. The printer will take a few minutes to heat up, and then will load your filament automatically. Carefully remove the excess filament from the nozzle once the filament has finished loading.","9");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Defying Gravity Science Experiment","  Make sure that your Polaroid PlaySmart 3D Printer is correctly calibrated and leveled. You can do this by going to the Settings menu and select \'Bed Leveling\', and follow the on screen instructions. Then perform the \'Bed Calibration\', and follow the on screen instructions for this also. (If you need further assistance with this, there are tutorial videos available on the Polaroid 3D YouTube channel).","10");
@@ -251,7 +250,7 @@ INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Defying Gravity Sc
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Defying Gravity Science Experiment","  Press confirm and your model will start to print. You will see the estimated time to print in the top right-hand corner.","12");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Defying Gravity Science Experiment","  When your model has finished printing, allow the bed to cool down below 30 degrees, before removing your model from the print bed.","13");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Defying Gravity Science Experiment","  Remove the brim from the model but pulling it off.","14");
-INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Defying Gravity Science Experiment","  Repeat these printing steps for all parts of the Defying Gravity Science Experiment.","15");
+INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Defying Gravity Science Experiment","  Repeat these printing steps for all pArts of the Defying Gravity Science Experiment.","15");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Defying Gravity Science Experiment","  Now it\'s time to put your science experiment together &-; what can you balance?","16");
 INSERT INTO Arts (Name, Img) VALUES ("Slime","0");
 INSERT INTO Material(Name,Material) VALUES ("Slime","bowls ");
@@ -313,7 +312,7 @@ INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Wind Car Experimen
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Wind Car Experiment","  Select the \'Advanced Settings\' button, under Model Base ensure that \'Brim\' is selected from the drop down. Then select \'OK\'.","4");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Wind Car Experiment","  Click on the green \'Print\' button, and SmartPrep will then estimate the time that the model will take to print and give you an estimation of the amount of filament that will be needed, giving you the opportunity to confirm that you have enough on your cartridge before you begin.","5");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Wind Car Experiment","  Save the sliced model to your SD Card or USB.","6");
-INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Wind Car Experiment","  Repeat these steps for all parts of the Wind Car Experiment Model.","7");
+INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Wind Car Experiment","  Repeat these steps for all pArts of the Wind Car Experiment Model.","7");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Wind Car Experiment","  Load the filament into the printer. Place your filament cartridge on the Polaroid Precise Filament Holder & Scale, break off the end of the filament, as instructed in the User Guide for your Polaroid PlaySmart 3D printer, and insert it into the filament feeder until you can see 2cm of filament in the PTFE tube.","8");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Wind Car Experiment","  Select the \'Filament\' tab on the LCD screen, and then press \'Load\'. The printer will take a few minutes to heat up, and then will load your filament automatically. Carefully remove the excess filament from the nozzle once the filament has finished loading.","9");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Wind Car Experiment","  Make sure that your Polaroid PlaySmart 3D Printer is correctly calibrated and leveled. You can do this by going to the Settings menu and select \'Bed Leveling\', and follow the on screen instructions. Then perform the \'Bed Calibration\', and follow the on screen instructions for this also. (If you need further assistance with this, there are tutorial videos available on the Polaroid 3D YouTube channel).","10");
@@ -321,7 +320,7 @@ INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Wind Car Experimen
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Wind Car Experiment","  Press confirm and your model will start to print. You will see the estimated time to print in the top right-hand corner.","12");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Wind Car Experiment","  When your model has finished printing, allow the bed to cool down below 30 degrees, before removing your model from the print bed.","13");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Wind Car Experiment","  Remove the brim from the model but pulling it off.","14");
-INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Wind Car Experiment","  Repeat these printing steps for all parts of the Wind Car Experiment.","15");
+INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Wind Car Experiment","  Repeat these printing steps for all pArts of the Wind Car Experiment.","15");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Wind Car Experiment","  Assemble the car together using the below instructions.","16");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Wind Car Experiment","  Choose your propellers and use a fan to make the car move.","17");
 INSERT INTO Arts (Name, Img) VALUES ("Rip Stop Pouch","0");
@@ -354,3 +353,23 @@ INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Hot Glue Vase","  
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Hot Glue Vase","  Once you have completed the design with hot glue, take your vase to a well ventilated area and spray with spray paint.","3");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Hot Glue Vase","  Allow to dry and apply additional coats as needed.","4");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Hot Glue Vase","","5");
+*/
+Use `ArtsAndCraps`;
+UPDATE Arts SET img = LOAD_FILE('./craftsdb/Red\ Heart\ Fishnet\ Jar.jpg') WHERE Name='Red Heart Fishnet Jar';
+UPDATE Arts SET img = LOAD_FILE('./craftsdb/Wind\ Car\ Experiment.jpg') WHERE Name='Wind Car Experiment';
+UPDATE Arts SET img = LOAD_FILE('./craftsdb/Resin\ Crystal\ Place\ Card\ Holder.jpg') WHERE Name='Resin Crystal Place Card Holder';
+UPDATE Arts SET img = LOAD_FILE('./craftsdb/Color\ Theory\ Candy.jpg') WHERE Name='Color Theory Candy';
+UPDATE Arts SET img = LOAD_FILE('./craftsdb/Boo\ Ghost\ Hoop.jpg') WHERE Name='Boo Ghost Hoop';
+UPDATE Arts SET img = LOAD_FILE('./craftsdb/Hot\ glue\ vase.jpg') WHERE Name='Hot glue vase';
+UPDATE Arts SET img = LOAD_FILE('./craftsdb/Slime.jpg') WHERE Name='Slime';
+UPDATE Arts SET img = LOAD_FILE('./craftsdb/Rip\ Stop\ Pouch.jpg') WHERE Name='Rip Stop Pouch';
+UPDATE Arts SET img = LOAD_FILE('./craftsdb/glow\ marbling\ rocks.jpg') WHERE Name='glow marbling rocks';
+UPDATE Arts SET img = LOAD_FILE('./craftsdb/Arts.csv') WHERE Name='Arts.csv';
+UPDATE Arts SET img = LOAD_FILE('./craftsdb/Lava\ lamp.jpg') WHERE Name='Lava lamp';
+UPDATE Arts SET img = LOAD_FILE('./craftsdb/Defying\ Gravity\ Science\ Experiment.jpg') WHERE Name='Defying Gravity Science Experiment';
+UPDATE Arts SET img = LOAD_FILE('./craftsdb/Egg\ Carton\ Wall\ Hanging.jpg') WHERE Name='Egg Carton Wall Hanging';
+UPDATE Arts SET img = LOAD_FILE('./craftsdb/sharpie\ tie\ dye.jpg') WHERE Name='sharpie tie dye';
+UPDATE Arts SET img = LOAD_FILE('./craftsdb/Stained\ Glass\ Pasta.jpg') WHERE Name='Stained Glass Pasta';
+UPDATE Arts SET img = LOAD_FILE('./craftsdb/Personalized\ pencil\ holder.webp') WHERE Name='Personalized pencil holder';
+UPDATE Arts SET img = LOAD_FILE('./craftsdb/Levitating\ Orb.png') WHERE Name='Levitating Orb';
+UPDATE Arts SET img = LOAD_FILE('./craftsdb/shibori\ Face\ mask.webp') WHERE Name='shibori Face mask';
