@@ -1,3 +1,5 @@
+Backend/virtualenv
+*.workspace
 *.iml
 .gradle
 /local.properties
