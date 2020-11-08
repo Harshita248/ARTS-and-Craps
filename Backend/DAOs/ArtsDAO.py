@@ -6,13 +6,10 @@ class ArtsDAO(db):
         self.table = "Arts"
 
     def selectAll(self):
-        return self.query("*", "",[])
-
-  
+        return self.query("Name", "",[])
 
 
 
-if __name__=="__main__":
-    a = ArtsDAO()
+
 
 

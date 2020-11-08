@@ -1,4 +1,4 @@
-/*DROP DATABASE IF EXISTS `ArtsAndCraps`;
+DROP DATABASE IF EXISTS `ArtsAndCraps`;
 CREATE DATABASE IF NOT EXISTS `ArtsAndCraps`;
 Use `ArtsAndCraps`;
 
@@ -353,7 +353,7 @@ INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Hot Glue Vase","  
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Hot Glue Vase","  Once you have completed the design with hot glue, take your vase to a well ventilated area and spray with spray paint.","3");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Hot Glue Vase","  Allow to dry and apply additional coats as needed.","4");
 INSERT INTO Instruction(Name,Instruction,StepNumber) VALUES ("Hot Glue Vase","","5");
-*/
+
 Use `ArtsAndCraps`;
 UPDATE Arts SET img = LOAD_FILE('./craftsdb/Red\ Heart\ Fishnet\ Jar.jpg') WHERE Name='Red Heart Fishnet Jar';
 UPDATE Arts SET img = LOAD_FILE('./craftsdb/Wind\ Car\ Experiment.jpg') WHERE Name='Wind Car Experiment';

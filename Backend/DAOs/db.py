@@ -3,13 +3,16 @@ import mysql.connector
 
 class db:
     def  __init__(self):
+
         self.mydb = mysql.connector.connect(
             host="35.222.183.17",
             user="root",
             password="password",
             auth_plugin='mysql_native_password',
-            database="ArtsAndCraps"
+            database="ArtsAndCraps",
             )
+
+
         self.cursor = self.mydb.cursor()
 
     def query(self,select, rmstr,params):
